@@ -94,7 +94,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Unity Talks** - Where every conversation leads to new connections and boundless opportunities.
-
-```
-
-```
