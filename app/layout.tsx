@@ -12,7 +12,7 @@ import "./globals.css";
 const font = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UnityTalks",
+  title: "Unity Talks",
   description:
     "Welcome to UnityTalks, the ultimate nexus for unified conversations and collaboration. Designed as an inclusive and versatile platform, UnityTalks brings people together, transcending boundaries through seamless communication channels. Engage in vibrant discussions, share ideas, and forge connections effortlessly within this dynamic space. From lively voice chats to organized text channels and comprehensive community tools, UnityTalks empowers individuals and groups to convene, collaborate, and build thriving communities. Experience the power of unity in communication, where every conversation leads to new connections and boundless opportunities.",
 };
