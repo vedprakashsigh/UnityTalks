@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Unity Talks
+
+Welcome to UnityTalks, the ultimate nexus for unified conversations and collaboration. Designed as an inclusive and versatile platform, UnityTalks brings people together, transcending boundaries through seamless communication channels. Engage in vibrant discussions, share ideas, and forge connections effortlessly within this dynamic space. From lively voice/video chats to organized text channels and comprehensive community tools, UnityTalks empowers individuals and groups to convene, collaborate, and build thriving communities. Experience the power of unity in communication, where every conversation leads to new connections and boundless opportunities.
 
 ## Getting Started
 
-First, run the development server:
+To get started with UnityTalks, follow these steps:
+
+1. Clone this repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+git clone https://github.com/vedprakashsigh/UnityTalks
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm install
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Set up your environment variables by creating a `.env.local` file in the root of the project and adding the following variables:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```plaintext
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+NEXT_PUBLIC_SITE_URL=
 
-## Deploy on Vercel
+DATABASE_URL=
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+NEXT_PUBLIC_LIVEKIT_URL=
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Replace the values with your own keys and URLs.
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+## Features
+
+- **Unified Communication:** Seamlessly communicate with others through various channels including voice chats, text channels, and video calls.
+- **Collaborative Environment:** Foster collaboration and teamwork by sharing ideas, discussing projects, and organizing events within the platform.
+- **Inclusive Platform:** Designed to be inclusive and welcoming to people from all backgrounds, fostering diversity and inclusivity in conversations.
+- **Versatile Tools:** Utilize a range of tools and features to enhance communication and collaboration, including emojis, reactions, and customizable themes.
+- **Dynamic Interface:** Enjoy a dynamic and intuitive user interface that makes navigation and interaction easy and enjoyable.
+
+## Technologies Used
+
+- Next.js
+- Clerk
+- Emoji Mart
+- Livekit Components
+- Prisma
+- Radix UI
+- Supabase
+- React Query
+- UploadThing
+- Axios
+- TypeScript
+- ESLint
+- Tailwind CSS
+- PostCSS
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to UnityTalks, please follow these guidelines:
+
+1. Fork the repository and create your branch from `main`.
+2. Make your changes and ensure the code follows the project's coding standards.
+3. Test your changes thoroughly.
+4. Create a pull request with a clear description of your changes and their purpose.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Unity Talks** - Where every conversation leads to new connections and boundless opportunities.
+
+```
+
+```
