@@ -106,6 +106,7 @@ export const EditChannelModal = () => {
           <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
             <div className='space-y-8 px-6'>
               <FormField
+                disabled={isLoading}
                 control={form.control}
                 name='name'
                 render={({ field }) => (

@@ -59,6 +59,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
         <FormField
           control={form.control}
           name='content'
+          disabled={isLoading}
           render={({ field }) => {
             return (
               <FormItem>
